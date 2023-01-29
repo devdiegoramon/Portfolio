@@ -26,4 +26,9 @@
     ul{
         text-align: center;
     }
+
+    form [type="submit"]{
+      
+        padding-right: 17%;
+    }
 }
