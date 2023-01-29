@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    }
+    
 body {
 
     background-color:#212529;
@@ -26,6 +31,16 @@ header {
     line-height: 10px;
 }
 
+.naoselecionavel {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
 li {
     display: inline-block;
     margin: 20px;
@@ -33,6 +48,7 @@ li {
 
 a {
     color: white;
+    text-decoration:none;
 }
 
 a:hover {
@@ -99,6 +115,7 @@ input {
 }
 
 #tudo {
+    margin: 0 auto;
     min-height: 100%;
     position: relative; }
     
